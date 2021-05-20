@@ -8,7 +8,7 @@ import oneTimeTaskStore from './modules/one-time-task/one-time-task';
 import recurringTask from './modules/recurring-task/recurring-task';
 
 Vue.use(Vuex);
-const store = new Vuex.Store({
+export default new Vuex.Store({
   modules: {
       oneTimeTaskStore,
       recurringTask,
