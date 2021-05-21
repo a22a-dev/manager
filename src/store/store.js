@@ -4,8 +4,8 @@ import actions from './actions';
 import state from './state';
 import mutations from './mutations';
 import getters from './getters';
-import oneTimeTaskStore from './modules/one-time-task/one-time-task';
-import recurringTask from './modules/recurring-task/recurring-task';
+import oneTimeTaskStore from './modules/one-time-tasks/one-time-tasks';
+import recurringTask from './modules/recurring-tasks/recurring-tasks';
 
 Vue.use(Vuex);
 export default new Vuex.Store({
