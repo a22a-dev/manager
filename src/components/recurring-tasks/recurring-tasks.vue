@@ -8,5 +8,5 @@
 export default {};
 </script>
 
-<style lang="scss" src="./thinking-box.scss" scoped >
+<style lang="scss" src="./recurring-tasks.scss" scoped >
 </style>
